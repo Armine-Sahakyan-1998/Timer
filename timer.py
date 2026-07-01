@@ -10,8 +10,8 @@ def second_func():
                     input("You are started a game,please click the 'Enter' butoon for the end!")
 
                     end_time = time.time()
-                    tevox = end_time - start_time
-                    print(f"Ancac zhamanakn e {tevox} vayrkyan")
+                    duration = end_time - start_time
+                    print(f"Elapsed time is {duration} seconds!")
                 elif choose == '2':
                     print("The programm is ending")
                     break
