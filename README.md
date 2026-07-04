@@ -1,30 +1,32 @@
-In this code, I utilized Python's built-in time module to track and calculate elapsed time. 
-The program uses a while True loop to maintain an interactive command-line interface, 
-user input() for menu selection and game triggers, and conditional if-elif-else statements to control the logic flow.
+# ⏱️ Stopwatch Timer Game
 
-
-# Reaction Time Game (Python)
-
-A simple, interactive command-line game built with Python to measure elapsed time or reaction speed. 
+A simple Python console application that measures the amount of time between pressing **Enter** to start and pressing **Enter** again to stop. This project demonstrates the use of the `time` module, loops, functions, and user input.
 
 ## Features
-* **Simple Menu:** Easy navigation between starting the game or exiting.
-* **Accurate Timing:** Uses Python's built-in `time` module to track exactly how many seconds pass.
-* **Clean UI:** Displays formatted results rounded to two decimal places.
+
+* ▶️ Start the stopwatch.
+* ⏱️ Measure the elapsed time in seconds.
+* 🔄 Run the timer multiple times using a menu.
+* 🚪 Exit the application at any time.
+
+## Technologies Used
+
+* Python 3
+* `time` module
+* Functions
+* `while` loops
+* Conditional statements (`if`, `elif`, `else`)
+* User input with `input()`
 
 ## How It Works
-1. Run the script.
-2. Choose option `1` to start the game.
-3. Press **Enter** as fast (or slow) as you want to stop the timer.
-4. The program calculates and prints the exact elapsed time in seconds.
 
-## Preview
-```text
-The second_function game
-1. Start
-2. Exit
-Choose your number (1 or 2): 1
-You started the game. Please click the 'Enter' button to end! 
+When the program starts, a simple menu is displayed:
 
-Elapsed time is 2.45 seconds!
-```
+1. **Start** – Begins timing when the user selects this option. The timer stops when the user presses **Enter**, and the elapsed time is displayed.
+2. **Exit** – Closes the application.
+
+The program uses Python's `time.time()` function to record the start and end times, then calculates the difference to determine the total elapsed time.
+
+## Purpose
+
+This project was created as a beginner-friendly Python exercise to practice working with the `time` module, functions, loops, and building interactive console applications.
