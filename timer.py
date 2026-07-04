@@ -11,7 +11,7 @@ def second_func():
 
                     end_time = time.time()
                     duration = end_time - start_time
-                    print(f"Elapsed time is {duration} seconds!")
+                    print(f"Elapsed time {duration.2f} seconds!")
                 elif choose == '2':
                     print("The programm is ending")
                     break
